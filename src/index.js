@@ -11,6 +11,7 @@ app.use(usersRoutes)
 
 const port = process.env.PORT
 
+console.log('Server started');
 
 app.listen(port, () => {
     console.log("Server is running on", port)
